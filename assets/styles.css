@@ -7,6 +7,17 @@
   --radius:16px; --shadow:0 10px 30px rgba(0,0,0,.35);
 }
 
+/* Base – typography & scaling */
+:host, html {
+  text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.6;
+}
+
 /* Base / Reset (non-critical; critical is inlined in HTML) */
 *{box-sizing:border-box}
 @media (prefers-reduced-motion: reduce){
