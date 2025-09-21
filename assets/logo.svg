@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Aden Kebte</title>
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#7c3aed"></stop>
+      <stop offset="1" stop-color="#2563eb"></stop>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="56" height="56" rx="14" fill="url(#g)"></rect>
+  <!-- Minimal geometric "AK" monogram (stroked shapes, no fonts) -->
+  <g fill="none" stroke="#e7ecf5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" transform="translate(6 6)">
+    <!-- A -->
+    <path d="M8 40 L16 12 L24 40 M11 32 L21 32"></path>
+    <!-- K -->
+    <path d="M32 12 V40 M32 28 L44 12 M32 28 L44 40"></path>
+  </g>
+</svg>
